@@ -7,3 +7,5 @@ alias gh='cd ~/github/github'
 # Zeus
 alias zrt='zeus testrb'
 alias zc='zeus c'
+
+alias log="tail -f log/development.log"
