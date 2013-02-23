@@ -1,7 +1,9 @@
-alias r='rbenv local 1.8.7-p358'
-
+alias rt="ruby -I\"lib:test\""
+alias ss='script/server'
 alias sc='script/console'
-alias sg='script/generate'
-alias sd='script/destroy'
+alias bx='bundle exec'
+alias gh='cd ~/github/github'
 
-alias migrate='rake db:migrate db:test:clone'
+# Zeus
+alias zrt='zeus testrb'
+alias zc='zeus c'
